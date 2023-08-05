@@ -1,0 +1,47 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:hsl(212, 45%, 89%);
+}
+section{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: min-content;
+    padding: 12px;
+    border-radius: 13px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 25vh;
+}
+section img {
+    height: 230px;
+    border-radius: 6px;
+    padding-bottom: 4px;
+}
+section h4, p{
+    font-family: 'Outfit', sans-serif;
+    padding: 7px;
+    text-align: -webkit-center;
+}
+section h4{
+    font-size: 16px;
+    color: hsl(218, 44%, 22%);
+}
+section p{
+    font-size: 13px;
+}
+.attribution{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    flex-wrap: wrap;
+}
+.attribution a{
+    text-decoration: none;
+}
